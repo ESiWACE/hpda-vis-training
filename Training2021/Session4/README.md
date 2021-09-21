@@ -66,8 +66,8 @@ Two subfolders are also located under this folder.
 In the ```Hands-on``` folder you can find the notebooks for the hands-on part:
 
 1. [**Basic_workflow.ipynb**](./Hands-on/1-Basic_workflow.ipynb) which provides step-by-step instructions on how to compose and submit a simple workflow with the PyOphidia interface; 
-2. [**Summer_days_workflow.ipynb**](./Hands-on/2-Summer_days_workflow.ipynb) providing an exercise for the implementation of an analysis workflow (a climate indicator) on multiple input NetCDF files
-3. [**Selection_interface.ipynb**](./Hands-on/3-Selection_interface.ipynb.ipynb) showing a more complex example about the use of the selection (if/elseif/else) statement.
+2. [**Summer_days_workflow.ipynb**](./Hands-on/2-Summer_days_workflow.ipynb) providing an exercise for the implementation of an analysis workflow (a climate indicator) on multiple input NetCDF files. The *2-Summer_days_workflow-filled.ipynb* noteobook shows the same notebook after its execution.
+3. [**Selection_interface.ipynb**](./Hands-on/3-Selection_interface.ipynb) showing a more complex example about the use of the selection (if/elseif/else) statement. The *3-Selection_interface-filled.ipynb* noteobook shows the same notebook after its execution.
 
 #### Example Notebooks
 

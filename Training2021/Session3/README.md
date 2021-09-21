@@ -62,9 +62,9 @@ Two subfolders are also located under this folder.
 In the ```Hands-on``` folder you can find the notebooks for the hands-on part:
 
 1. [**Basics.ipynb**](./Hands-on/1-Basics.ipynb) which provides step-by-step instructions on how to use the Ophidia operators as well as the PyOphidia library to implement a climate indicator; 
-2. [**Summer_Days.ipynb**](./Hands-on/2-Summer_Days.ipynb) providing a simple exercise for the implementation of a climate indicator with PyOphidia
-3. [**Linear_Regression.ipynb**](./Hands-on/3-Linear_Regression.ipynb) representing a more challenging exercise, where you can implement a linear regression experiment to extract the trend from the data.
-ssss
+2. [**Summer_Days.ipynb**](./Hands-on/2-Summer_Days.ipynb) providing a simple exercise for the implementation of a climate indicator with PyOphidia. The *2-Summer_Days-filled.ipynb* noteobook shows the same notebook after its execution.
+3. [**Linear_Regression.ipynb**](./Hands-on/3-Linear_Regression.ipynb) representing a more challenging exercise, where you can implement a linear regression experiment to extract the trend from the data.  The *3-Linear_Regression-filled.ipynb* noteobook shows the same notebook after its execution.
+
 #### Example Notebooks
 
 The ```Examples``` folder contains a set of ready-to-use noteboks that can be executed if you are interested in seeing additional ways of exploiting Ophidia.
