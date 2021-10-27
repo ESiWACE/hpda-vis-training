@@ -30,24 +30,26 @@ Download the tutorial material:
 $ https://github.com/ESiWACE/hpda-vis-training
 ```
 
-The tutorial requires some NetCDF files. To download the data run:
+The tutorial requires some NetCDF files from the CMIP5 archive. In particular a couple of files from the ouput of the CESM model provided by CMCC will be downloaded with the following script from ESGF CMIP5 data nodes. CMIP5 data can be accessed from the ESGF Data Portal CMIP5 project page: https://esgf-node.llnl.gov/search/cmip5/). Please note that CMIP5 data come with the following Terms of Use: https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html 
+
+To download the data run:
 
 ```
 $ cd hpda-vis-training/Training2021/Session3
 $ ./get_data.sh
 ```
 
-You should now see two CMIP5 NetCDF files under the git repository folder.
+You should now see two CMIP5 NetCDF files under the git repository folder. 
 
 #### Start the environment
 
 From the same folder start the container, binding the tutorial material repo path ($PWD): 
 
 ```
-$ sudo docker run --rm -it -v $PWD:/home/ophidia/notebooks ophidiabigdata/ophidia-training:latest
+$ sudo docker run --rm -it -v $PWD:/home/ophidia/notebooks ophidiabigdata/ophidia-training:v1.6
 ```
 
-Now copy the URL showed in the log message (e.g., http://172.17.0.2:8888/) in your browser to open the Jupyter Notebook UI. Type ‘ophidia’ as password when prompted. The notebooks will be available under the ```notebooks``` folder in the Jupyter Notebook UI.
+Now copy the URL showed in the log message (e.g., `http://172.17.0.2:8888/`) in your browser to open the Jupyter Notebook UI. Type ‘ophidia’ as password when prompted. In case the IP address in not reachable, try with `http://localhost:8888/`. The notebooks will be available under the ```notebooks``` folder in the Jupyter Notebook UI.
 
 ### Notebooks
 
@@ -59,7 +61,7 @@ Two subfolders are also located under this folder.
 
 #### Hands-on Notebooks
 
-In the ```Hands-on``` folder you can find the notebooks for the hands-on part:
+In the ```Hands-on/``` folder you can find the notebooks for the hands-on part:
 
 1. [**Basics.ipynb**](./Hands-on/1-Basics.ipynb) which provides step-by-step instructions on how to use the Ophidia operators as well as the PyOphidia library to implement a climate indicator; 
 2. [**Summer_Days.ipynb**](./Hands-on/2-Summer_Days.ipynb) providing a simple exercise for the implementation of a climate indicator with PyOphidia. The *2-Summer_Days-filled.ipynb* noteobook shows the same notebook after its execution.
@@ -67,7 +69,7 @@ In the ```Hands-on``` folder you can find the notebooks for the hands-on part:
 
 #### Example Notebooks
 
-The ```Examples``` folder contains a set of ready-to-use noteboks that can be executed if you are interested in seeing additional ways of exploiting Ophidia.
+The ```Examples/``` folder contains a set of ready-to-use noteboks that can be executed if you are interested in seeing additional ways of exploiting Ophidia.
 
 - [**Daily Temperature Range**](./Examples/Daily_Temperature_Range.ipynb) shows how to compute the Daily Temperature Range climate indicator;
 - [**Frost Days**](./Examples/Frost_Days.ipynb) shows how to compute the Frost Days indicator;
