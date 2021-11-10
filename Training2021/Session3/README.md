@@ -19,7 +19,7 @@ Requirements for the demo and hands-on parts: Docker, git command line and a web
 To run this tutorial first retrieve the Ophidia training image from DockerHub:
 
 ```
-$ docker pull ophidiabigdata/ophidia-training:latest
+$ docker pull ophidiabigdata/ophidia-training:v1.6
 ```
 
 This image includes the full Ophidia software stack, a Jupyter Notebook server and a set of scientific Python modules. Additional information on the image: https://hub.docker.com/r/ophidiabigdata/ophidia-training
