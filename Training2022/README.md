@@ -1,5 +1,5 @@
 # Training on HPDA and Visualisation 2022
-This folder contains the training material for the **2022 ESiWACE2 Online Training Course on HPDA and Visualisation**.
+This folder contains the training material for the **2022 ESiWACE2 Online Training Course on HPDA and Visualisation** (https://indico.dkrz.de/event/43/).
 
 ### Agenda for ESiWACE2 HPDA and Visualisation Course 2022
 
