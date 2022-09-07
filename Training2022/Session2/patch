@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sed -i "s/diamond_commands = \[\"if\", \"endif\", \"else\"\]/diamond_commands = \[\"if\", \"endif\", \"else\", \"elseif\"\]/g" /usr/local/ophidia/env/lib/python3.8/esdm-pav-client/esdm_pav_client/workflow.py
+sed -i "s/diamond_commands = \[\"if\", \"endif\", \"else\"\]/diamond_commands = \[\"if\", \"endif\", \"else\", \"elseif\"\]/g" /usr/local/ophidia/env/lib/python3.8/esdm-pav-client/esdm_pav_client/experiment.py 
